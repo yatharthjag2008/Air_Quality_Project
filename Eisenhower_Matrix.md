@@ -1,0 +1,7 @@
+
+
+|  | Urgent | Not Urgent |
+| :---- | :---- | :---- |
+| **Important** | **Do \- (Your MVP)** <br>- Uses the Open Meteo Air Quality API to get air quality data on a specific location <br>- Uses the IP-API to find the coordinates of the user in order to find an accurate air quality reading at their location Read the US Air Quality Index (AQI) from the data and translate it into words <br>- Let the user choose a warning level and show clear warnings when the air is worse than that <br>- Can handle basic errors like an invalid reading or no internet | **Schedule \- (For V2.0+)**<br>- Look up any location by name insteading of having to type specific coordinates if the user wants to find air quality at a location that is different from their own <br>- Give advice based on what activity the user wants to do and their sensitivity to the air quality <br>- Includes weather and temperature details along with the air quality reading Shows tomorrow’s air quality forecast so users can know ahead of time |
+| **Not Important** | **Delegate \- (Use a library)** <br>- Collecting the air quality data and translate it using the Open Meteo API and the US AQI  <br>- Using dates and times through importing the java.time library <br>- Collecting the user’s location in coordinates using the IP-API <br>Using JUnit to run and organize tests | **Delete \- (Cut it)** <br>- Having user accounts and logins Having a GUI  <br>- Making a mobile app version <br>- User getting email and text notifications <br>- Making a model to predict air quality in the future  |
+
